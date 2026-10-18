@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner {
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(/img/vrse-dots-bg.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.banner header {
+    height: 12%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headright {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 1%;
+    opacity: 80%;
+
+}
+
+.netnav {
+    width: 100%;
+}
+
+.netnav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 2px;
+    justify-content: center;
+}
+
+.netnav li {
+    width: 100%;
+}
+
+.netnav a {
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.netnav a:hover {
+    color: #555555;
+}
+
+.banner .bancontent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 86%;
+}
+
+.bancontent .banlogo {
+    width: 20%;
+    
+}
+
+.bancontent .banlogo img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pillars {
+    width: 30%;
+}
+
+.pillars ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+.overview {
+    text-align: left;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+}
